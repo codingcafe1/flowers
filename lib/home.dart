@@ -130,7 +130,10 @@ class _HomeState extends State<Home> {
                       color: Colors.orange, // button color
                       child: InkWell(
                         splashColor: Colors.green, // splash color
-                        onTap: () {}, // button pressed
+                        onTap: () 
+                        {
+                          pickImage();
+                        }, // button pressed
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
